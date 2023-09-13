@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Call Screen Theme</string>
+    <string name="Language">English</string>
+    <string name="onbording1">Dive into Neon Dreams</string>
+    <string name="onbording11">Immerse yourself in the vibrate glow\n of neon lights</string>
+    <string name="onbording2">Neon Unleashed</string>
+    <string name="onbording22">Experience the cityscape like never\n before with our neon-infused\napp</string>
+    <string name="onbording3">Nature’s Sanctuary in your\nHands</string>
+    <string name="onbording33">Carry a pocket-sized paradise with\nyou everywhere you go</string>
+    <string name="screentheme">Screen Theme</string>
+    <string name="mytheme">My Theme</string>
+    <string name="diytheme">Diy Theme</string>
+    <string name="icon">Call icon</string>
+    <string name="avatar">avatar</string>
+    <string name="selected_language" translatable="false">Hi everyone</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="applicant_name" translatable="false">Android Codility</string>
+    <string name="info" translatable="false">Spinners provide a quick way to select one value from a set. In the default state, a spinner shows its currently selected value. Touching the spinner displays a dropdown menu with all other available values, from which the user can select a new one.
+    \n\nApps include resources that can be specific to a particular culture. For example, an app can include culture-specific strings that are translated to the language of the current locale. It\'s a good practice to keep culture-specific resources separated from the rest of your app. Android resolves language- and culture-specific resources based on the system locale setting. You can provide support for different locales by using the resources directory in your Android project.</string>
+    <string name="exit" translatable="false">Exit</string>
+</resources>

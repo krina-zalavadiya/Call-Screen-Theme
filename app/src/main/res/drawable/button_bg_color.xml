@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--  <item android:state_pressed="true" android:color="#00B0FF" />-->
+    <!--When Button is in selected state -->
+    <stroke android:color="#ccd5ae"
+        android:width="@dimen/_2sdp"/>
+    <!--Default Background Color -->
+    <solid android:color="@color/black"/>
+    <corners android:radius="@dimen/_5sdp"/>
+<!--
+
+    <item android:color="@android:color/white" />-->
+
+</shape>

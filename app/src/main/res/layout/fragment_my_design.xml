@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Fragment.MyDesignFragment">
+    <RelativeLayout
+        android:id="@+id/statusbar"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/mytheme"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="My Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/premium"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/crown"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imgmy"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_below="@id/statusbar"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:src="@drawable/my" />
+
+    <ImageView
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:id="@+id/applied"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgmy"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/applied" />
+
+
+</RelativeLayout>

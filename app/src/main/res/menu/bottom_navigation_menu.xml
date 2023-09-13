@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Screen_theme"
+        android:icon="@drawable/ic_phone"
+        android:title="Screen Theme" />
+
+    <item
+        android:id="@+id/Diy_theme"
+        android:icon="@drawable/ic_edit"
+        android:title="DIY Theme" />
+
+    <item
+        android:id="@+id/My_design"
+        android:icon="@drawable/ic_folder"
+        android:title="MY Design" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting"
+        android:title="Setting"/>
+
+</menu>

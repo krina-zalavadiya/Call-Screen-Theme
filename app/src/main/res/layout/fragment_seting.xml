@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".Fragment.SetingFragment">
+
+    <RelativeLayout
+        android:id="@+id/statusbar"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/screentheme"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:text="Setting "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/premium"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/crown"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/realsetting"
+        android:layout_below="@id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/settingbg"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/settingbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:id="@+id/set1"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:text="Unlock all screen themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_below="@id/set1"
+            android:id="@+id/setimg1"
+            android:src="@drawable/correct"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"/>
+
+        <TextView
+            android:layout_toRightOf="@id/setimg1"
+            android:layout_below="@id/set1"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:id="@+id/set2"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Remove all ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+         <ImageView
+
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_below="@id/set2"
+            android:id="@+id/setimg2"
+            android:src="@drawable/correct"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"/>
+
+        <TextView
+
+            android:layout_toRightOf="@id/setimg1"
+            android:layout_below="@id/set2"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:id="@+id/set3"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Unlock all color call themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+   <ImageView
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_below="@id/set3"
+            android:id="@+id/setimg3"
+            android:src="@drawable/correct"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"/>
+
+        <TextView
+            android:layout_toRightOf="@id/setimg1"
+            android:layout_below="@id/set3"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:id="@+id/set4"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinssemibold"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:text="Weekly themes updates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_below="@id/set4"
+            android:id="@+id/setimg4"
+            android:src="@drawable/pdgradepremium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@id/realsetting"
+        android:id="@+id/Genral"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:text="General"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <RelativeLayout
+       android:id="@+id/realset2"
+       android:layout_below="@id/Genral"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/translate"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:src="@drawable/translate"
+           android:layout_width="@dimen/_25sdp"
+           android:layout_height="@dimen/_25sdp"/>
+       <ImageView
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/arrow"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="@dimen/_10sdp"
+           android:src="@drawable/rightarrowset"
+           android:layout_width="@dimen/_20sdp"
+           android:layout_height="@dimen/_20sdp"/>
+       <LinearLayout
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/_5sdp"
+           android:layout_toRightOf="@id/translate"
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral1"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_15sdp"
+               android:textColor="@color/white"
+               android:text="Language"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral2"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_10sdp"
+               android:textColor="@color/white"
+               android:text="Default device"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_marginTop="@dimen/_5sdp"
+       android:id="@+id/realset3"
+       android:layout_below="@id/realset2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/translate1"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:src="@drawable/flash"
+           android:layout_width="@dimen/_25sdp"
+           android:layout_height="@dimen/_25sdp"/>
+       <androidx.appcompat.widget.SwitchCompat
+           app:thumbTint="@color/blue"
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/arrow2"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="@dimen/_10sdp"
+           android:layout_width="wrap_content"
+           android:layout_height="@dimen/_20sdp"/>
+
+       <LinearLayout
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/_5sdp"
+           android:layout_toRightOf="@id/translate1"
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral3"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_15sdp"
+               android:textColor="@color/white"
+               android:text="Caller Flash"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral4"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_10sdp"
+               android:textColor="@color/white"
+               android:text="Turn on"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_marginTop="@dimen/_5sdp"
+       android:id="@+id/realset4"
+       android:layout_below="@id/realset3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/translate3"
+           android:layout_marginLeft="@dimen/_10sdp"
+           android:src="@drawable/vibration"
+           android:layout_width="@dimen/_25sdp"
+           android:layout_height="@dimen/_25sdp"/>
+       <androidx.appcompat.widget.SwitchCompat
+           app:thumbTint="@color/blue"
+           android:layout_centerVertical="true"
+           android:layout_marginTop="@dimen/_10sdp"
+           android:id="@+id/arrow3"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="@dimen/_10sdp"
+           android:src="@drawable/rightarrowset"
+           android:layout_width="wrap_content"
+           android:layout_height="@dimen/_30sdp"/>
+
+
+       <LinearLayout
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/_5sdp"
+           android:layout_toRightOf="@id/translate3"
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral5"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_15sdp"
+               android:textColor="@color/white"
+               android:text="Vibrate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_marginLeft="@dimen/_10sdp"
+               android:layout_below="@id/realsetting"
+               android:id="@+id/Genral6"
+               android:fontFamily="@font/poppinsregular"
+               android:textSize="@dimen/_10sdp"
+               android:textColor="@color/white"
+               android:text="Turn Off"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+    <ImageView
+        android:layout_below="@id/realset4"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/line2"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/groupline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_below="@id/line2"
+        android:id="@+id/other"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:text="other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/realset5"
+        android:layout_below="@id/other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/shareset"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/share"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/shareset"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_below="@id/realsetting"
+                android:id="@+id/share"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:text="share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+ <RelativeLayout
+        android:id="@+id/realset6"
+        android:layout_below="@id/realset5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/feedbackset"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/info"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/feedbackset"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_below="@id/realsetting"
+                android:id="@+id/feedback"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:text="Feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+ <RelativeLayout
+        android:id="@+id/realset7"
+        android:layout_below="@id/realset6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/rateset"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/star"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/rateset"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_below="@id/realsetting"
+                android:id="@+id/rate"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:text="Rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/realset8"
+        android:layout_below="@id/realset7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/privacyset"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/shield"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"/>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_toRightOf="@id/privacyset"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_below="@id/realsetting"
+                android:id="@+id/Privacy"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:text="Privacy Policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

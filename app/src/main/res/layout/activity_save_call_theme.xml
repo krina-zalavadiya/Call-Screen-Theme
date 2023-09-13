@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveCallThemeActivity">
+
+
+    <ImageView
+        android:id="@+id/imgsavecall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/screenimg1">
+
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_alignLeft="@id/magic"
+            android:id="@+id/music"
+            android:layout_marginLeft="-45dp"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/musicnote" />
+
+        <ImageView
+            android:id="@+id/magic"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignLeft="@id/eye"
+            android:layout_marginLeft="-45dp"
+            android:src="@drawable/magicwand" />
+
+        <ImageView
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/eye"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/eye" />
+
+        <ImageView
+            android:layout_marginLeft="-45dp"
+            android:layout_alignLeft="@id/music"
+            android:layout_marginRight="@dimen/_70sdp"
+            android:id="@+id/premium"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/crown" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/realsave1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerHorizontal="true"
+            android:foreground="@drawable/profile"
+            app:cardCornerRadius="@dimen/_100sdp">
+
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/circleimg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/screenimg1" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/savetext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/realsave1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Ralph Edwards"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/savetext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/savetext1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="(671) 555-0110"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnsave"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <ImageView
+            android:id="@+id/btncall1"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/savecall1" />
+
+        <ImageView
+            android:id="@+id/btncall2"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/savecall2" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btnsave"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:src="@drawable/savecalltheme" />
+
+
+</RelativeLayout>

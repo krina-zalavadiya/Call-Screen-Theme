@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:id="@+id/reald"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/dtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Turn on the call screen"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/baseline_close_24" />
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/close"
+                android:background="@drawable/line"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+         <RelativeLayout
+             android:id="@+id/reald1"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <androidx.appcompat.widget.SwitchCompat
+                 android:layout_marginRight="@dimen/_5sdp"
+                 android:layout_alignParentRight="true"
+                 android:id="@+id/switchcompat"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/dtext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Phone, Contacts and Storage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_below="@id/dtext2"
+                android:id="@+id/dtext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="To turn on phone calls contacts\nand storage"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:id="@+id/reald2"
+             android:layout_marginTop="@dimen/_10sdp"
+             android:layout_below="@id/reald1"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dtext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Call screen"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_below="@id/dtext4"
+                android:id="@+id/dtext5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="To display incoming calls"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+         </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_marginTop="@dimen/_10sdp"
+             android:layout_below="@id/reald2"
+             android:id="@+id/reald3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dtext6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Screen Permissions"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_below="@id/dtext6"
+                android:id="@+id/dtext7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="To display the call screen"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+         </RelativeLayout>
+
+            <RelativeLayout
+             android:layout_marginTop="@dimen/_10sdp"
+             android:layout_below="@id/reald3"
+             android:id="@+id/reald4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dtext8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Change system settings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_below="@id/dtext8"
+                android:id="@+id/dtext9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="to use set ringtone for app"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp" />
+         </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
